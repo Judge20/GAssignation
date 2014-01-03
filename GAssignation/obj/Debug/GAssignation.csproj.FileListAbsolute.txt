@@ -1,4 +1,0 @@
-D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.dll
-D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.pdb
-D:\GitHub\G\GAssignation\GAssignation\obj\Debug\GAssignation.dll
-D:\GitHub\G\GAssignation\GAssignation\obj\Debug\GAssignation.pdb

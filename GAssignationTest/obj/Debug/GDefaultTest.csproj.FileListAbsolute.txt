@@ -1,7 +1,0 @@
-D:\GitHub\G\GDefault\GDefaultTest\obj\Debug\GDefaultTest.csprojResolveAssemblyReference.cache
-D:\GitHub\G\GDefault\GDefaultTest\bin\Debug\GDefaultTest.dll
-D:\GitHub\G\GDefault\GDefaultTest\bin\Debug\GDefaultTest.pdb
-D:\GitHub\G\GDefault\GDefaultTest\bin\Debug\GDefault.dll
-D:\GitHub\G\GDefault\GDefaultTest\bin\Debug\GDefault.pdb
-D:\GitHub\G\GDefault\GDefaultTest\obj\Debug\GDefaultTest.dll
-D:\GitHub\G\GDefault\GDefaultTest\obj\Debug\GDefaultTest.pdb
