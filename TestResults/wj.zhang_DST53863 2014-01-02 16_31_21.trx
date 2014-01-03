@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1edb257b-cc91-476e-a2e8-6b5b02b7922d" name="wj.zhang@DST53863 2014-01-02 16:31:21" runUser="CN1\wj.zhang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b90576d4-04a4-45f5-9144-5b655f7aa290">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="wj.zhang_DST53863 2014-01-02 16_31_21">
+      <DeploymentItem filename="D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-02T16:31:21.6995005+08:00" queuing="2014-01-02T16:31:22.7237053+08:00" start="2014-01-02T16:31:22.8267259+08:00" finish="2014-01-02T16:32:55.3062181+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DST53863" outcome="Error" timestamp="2014-01-02T16:32:55.3042177+08:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCollection" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="3d155380-f468-bd81-ea8d-9e8e9511027e">
+      <Execution id="32ecab52-8bb1-4fa6-a98c-ac8e7737688a" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.ChildAssigner, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCollection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d155380-f468-bd81-ea8d-9e8e9511027e" executionId="32ecab52-8bb1-4fa6-a98c-ac8e7737688a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32ecab52-8bb1-4fa6-a98c-ac8e7737688a" testId="3d155380-f468-bd81-ea8d-9e8e9511027e" testName="TestCollection" computerName="DST53863" duration="00:01:32.3704704" startTime="2014-01-02T16:31:22.9347475+08:00" endTime="2014-01-02T16:32:55.3052179+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32ecab52-8bb1-4fa6-a98c-ac8e7737688a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

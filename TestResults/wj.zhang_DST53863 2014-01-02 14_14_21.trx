@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5cd43be0-3f32-4852-9b8d-6078ade4963c" name="wj.zhang@DST53863 2014-01-02 14:14:21" runUser="CN1\wj.zhang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b90576d4-04a4-45f5-9144-5b655f7aa290">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="wj.zhang_DST53863 2014-01-02 14_14_21">
+      <DeploymentItem filename="D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-02T14:14:21.5334409+08:00" queuing="2014-01-02T14:14:23.2517845+08:00" start="2014-01-02T14:14:23.3157973+08:00" finish="2014-01-02T14:14:23.7398821+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="95185da8-2b60-a3d2-74c3-842069201cc9">
+      <Execution id="50d4e3d6-56fa-46a0-a364-f983e98e161d" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.RangeConditionTest, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="95185da8-2b60-a3d2-74c3-842069201cc9" executionId="50d4e3d6-56fa-46a0-a364-f983e98e161d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="50d4e3d6-56fa-46a0-a364-f983e98e161d" testId="95185da8-2b60-a3d2-74c3-842069201cc9" testName="TestMethod1" computerName="DST53863" duration="00:00:00.0844589" startTime="2014-01-02T14:14:23.3668075+08:00" endTime="2014-01-02T14:14:23.7068755+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d4e3d6-56fa-46a0-a364-f983e98e161d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;8&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   在 GAssignationTest.RangeConditionTest.TestMethod1() 位置 D:\GitHub\G\GAssignation\GAssignationTest\RangeConditionTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

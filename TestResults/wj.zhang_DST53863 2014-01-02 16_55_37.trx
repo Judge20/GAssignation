@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="72a24a77-8f54-47af-a7c2-0b733186623b" name="wj.zhang@DST53863 2014-01-02 16:55:37" runUser="CN1\wj.zhang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b90576d4-04a4-45f5-9144-5b655f7aa290">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="wj.zhang_DST53863 2014-01-02 16_55_37">
+      <DeploymentItem filename="D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-02T16:55:37.1514959+08:00" queuing="2014-01-02T16:55:38.5684959+08:00" start="2014-01-02T16:55:38.6554959+08:00" finish="2014-01-02T16:55:39.9094959+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="10" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="9" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DST53863" outcome="Error" timestamp="2014-01-02T16:55:39.9084959+08:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCollection" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="3d155380-f468-bd81-ea8d-9e8e9511027e">
+      <Execution id="d42725fe-78e4-40dd-8bf3-e867ae38bce7" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.ChildAssigner, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCollection" />
+    </UnitTest>
+    <UnitTest name="TestOutside" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="550291ee-5f8d-d2a8-f410-b45a00eda230">
+      <Execution id="b9fe02c4-b23d-4830-9099-60d46488bc2c" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.RangeConditionTest, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOutside" />
+    </UnitTest>
+    <UnitTest name="TestPredicateCondition" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="a4220ac3-a95f-00ce-f5d0-36ddc6258731">
+      <Execution id="1ba3cc79-510e-4c59-851f-9a550f065237" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.PropertyRuleTests, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPredicateCondition" />
+    </UnitTest>
+    <UnitTest name="TestUnless" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="187a94ad-b0d2-6faf-e9cd-04be2dc08f14">
+      <Execution id="4b0860d1-dc46-4da5-9810-c5f2b082127e" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.DefaultSetterTests, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUnless" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="c0b3bedf-a86e-b660-5e3d-61cc871a7302">
+      <Execution id="e429fa9f-47ee-4dc3-bc77-e8e78ce73be6" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.UnitTest1, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="29618c98-5d72-a35d-c7b3-6b0a010b0f6b">
+      <Execution id="0222704c-00d5-4b30-8a0e-54c376e264d5" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.DefaultSetterTests, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestWhen" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="34822a6d-1742-832d-83ff-bf1846d83b81">
+      <Execution id="677acce7-7d23-42ea-942a-6503eb0a4df0" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.DefaultSetterTests, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWhen" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="149ce85f-69e4-b6b2-5ee7-e07b772d81ae">
+      <Execution id="49f477fb-ff6e-4687-b09e-cb56ecf6332a" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.PropertyRuleTests, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="bef51277-19f8-6cfe-5da2-f8ed040a5fe5">
+      <Execution id="21319d25-62c2-473c-9cbe-5923385dbe10" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.ChildAssigner, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestBetween" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="7f6a65e7-ba06-1d58-a0a0-03a3bbcdf40c">
+      <Execution id="1785f2f6-8e57-4cc3-a588-060f29456fbd" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.RangeConditionTest, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBetween" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="149ce85f-69e4-b6b2-5ee7-e07b772d81ae" executionId="49f477fb-ff6e-4687-b09e-cb56ecf6332a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="187a94ad-b0d2-6faf-e9cd-04be2dc08f14" executionId="4b0860d1-dc46-4da5-9810-c5f2b082127e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29618c98-5d72-a35d-c7b3-6b0a010b0f6b" executionId="0222704c-00d5-4b30-8a0e-54c376e264d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34822a6d-1742-832d-83ff-bf1846d83b81" executionId="677acce7-7d23-42ea-942a-6503eb0a4df0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d155380-f468-bd81-ea8d-9e8e9511027e" executionId="d42725fe-78e4-40dd-8bf3-e867ae38bce7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="550291ee-5f8d-d2a8-f410-b45a00eda230" executionId="b9fe02c4-b23d-4830-9099-60d46488bc2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f6a65e7-ba06-1d58-a0a0-03a3bbcdf40c" executionId="1785f2f6-8e57-4cc3-a588-060f29456fbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4220ac3-a95f-00ce-f5d0-36ddc6258731" executionId="1ba3cc79-510e-4c59-851f-9a550f065237" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bef51277-19f8-6cfe-5da2-f8ed040a5fe5" executionId="21319d25-62c2-473c-9cbe-5923385dbe10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0b3bedf-a86e-b660-5e3d-61cc871a7302" executionId="e429fa9f-47ee-4dc3-bc77-e8e78ce73be6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="49f477fb-ff6e-4687-b09e-cb56ecf6332a" testId="149ce85f-69e4-b6b2-5ee7-e07b772d81ae" testName="TestMethod1" computerName="DST53863" duration="00:00:01.1710000" startTime="2014-01-02T16:55:38.7374959+08:00" endTime="2014-01-02T16:55:39.9084959+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49f477fb-ff6e-4687-b09e-cb56ecf6332a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b0860d1-dc46-4da5-9810-c5f2b082127e" testId="187a94ad-b0d2-6faf-e9cd-04be2dc08f14" testName="TestUnless" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b0860d1-dc46-4da5-9810-c5f2b082127e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0222704c-00d5-4b30-8a0e-54c376e264d5" testId="29618c98-5d72-a35d-c7b3-6b0a010b0f6b" testName="TestMethod1" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0222704c-00d5-4b30-8a0e-54c376e264d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="677acce7-7d23-42ea-942a-6503eb0a4df0" testId="34822a6d-1742-832d-83ff-bf1846d83b81" testName="TestWhen" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="677acce7-7d23-42ea-942a-6503eb0a4df0">
+    </UnitTestResult>
+    <UnitTestResult executionId="d42725fe-78e4-40dd-8bf3-e867ae38bce7" testId="3d155380-f468-bd81-ea8d-9e8e9511027e" testName="TestCollection" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d42725fe-78e4-40dd-8bf3-e867ae38bce7">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9fe02c4-b23d-4830-9099-60d46488bc2c" testId="550291ee-5f8d-d2a8-f410-b45a00eda230" testName="TestOutside" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9fe02c4-b23d-4830-9099-60d46488bc2c">
+    </UnitTestResult>
+    <UnitTestResult executionId="1785f2f6-8e57-4cc3-a588-060f29456fbd" testId="7f6a65e7-ba06-1d58-a0a0-03a3bbcdf40c" testName="TestBetween" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1785f2f6-8e57-4cc3-a588-060f29456fbd">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ba3cc79-510e-4c59-851f-9a550f065237" testId="a4220ac3-a95f-00ce-f5d0-36ddc6258731" testName="TestPredicateCondition" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ba3cc79-510e-4c59-851f-9a550f065237">
+    </UnitTestResult>
+    <UnitTestResult executionId="21319d25-62c2-473c-9cbe-5923385dbe10" testId="bef51277-19f8-6cfe-5da2-f8ed040a5fe5" testName="TestMethod1" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21319d25-62c2-473c-9cbe-5923385dbe10">
+    </UnitTestResult>
+    <UnitTestResult executionId="e429fa9f-47ee-4dc3-bc77-e8e78ce73be6" testId="c0b3bedf-a86e-b660-5e3d-61cc871a7302" testName="TestMethod1" computerName="DST53863" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e429fa9f-47ee-4dc3-bc77-e8e78ce73be6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

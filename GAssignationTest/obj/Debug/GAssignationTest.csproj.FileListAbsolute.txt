@@ -1,0 +1,7 @@
+D:\GitHub\G\GAssignation\GAssignationTest\bin\Debug\GAssignationTest.dll
+D:\GitHub\G\GAssignation\GAssignationTest\bin\Debug\GAssignationTest.pdb
+D:\GitHub\G\GAssignation\GAssignationTest\bin\Debug\GAssignation.dll
+D:\GitHub\G\GAssignation\GAssignationTest\bin\Debug\GAssignation.pdb
+D:\GitHub\G\GAssignation\GAssignationTest\obj\Debug\GAssignationTest.csprojResolveAssemblyReference.cache
+D:\GitHub\G\GAssignation\GAssignationTest\obj\Debug\GAssignationTest.dll
+D:\GitHub\G\GAssignation\GAssignationTest\obj\Debug\GAssignationTest.pdb

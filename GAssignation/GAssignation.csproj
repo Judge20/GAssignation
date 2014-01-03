@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B20F280D-93B3-4EC1-AF03-99C5049BB61E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GAssignation</RootNamespace>
+    <AssemblyName>GAssignation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractAssigner.cs" />
+    <Compile Include="CollectionAssignerAdapter.cs" />
+    <Compile Include="CollectionAssignerExtensions.cs" />
+    <Compile Include="CollectionPropertyRule.cs" />
+    <Compile Include="Comparer.cs" />
+    <Compile Include="ConditionContext.cs" />
+    <Compile Include="ConditionExtensions.cs" />
+    <Compile Include="DefaultOptions.cs" />
+    <Compile Include="DefaultConditionSelector.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IPropertyRule.cs" />
+    <Compile Include="IConditionSelector.cs" />
+    <Compile Include="IAssigner.cs" />
+    <Compile Include="IPropertyCondition.cs" />
+    <Compile Include="IRuleBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyChain.cs" />
+    <Compile Include="PropertyConditionContext.cs" />
+    <Compile Include="PropertyCondition\AbstractComparisonCondition.cs" />
+    <Compile Include="PropertyCondition\AbstractRangeCondition.cs" />
+    <Compile Include="PropertyCondition\EmptyCondition.cs" />
+    <Compile Include="PropertyCondition\EqualCondition.cs" />
+    <Compile Include="PropertyCondition\ExclusiveBetweenCondition.cs" />
+    <Compile Include="PropertyCondition\ExclusiveOutsideCondition.cs" />
+    <Compile Include="PropertyCondition\GreaterThanCondition.cs" />
+    <Compile Include="PropertyCondition\GreaterThanOrEqualCondition.cs" />
+    <Compile Include="PropertyCondition\InclusiveBetweenCondition.cs" />
+    <Compile Include="PropertyCondition\InclusiveOutsideCondition.cs" />
+    <Compile Include="PropertyCondition\InCondition.cs" />
+    <Compile Include="PropertyCondition\InStringCondition.cs" />
+    <Compile Include="PropertyCondition\LengthCondition.cs" />
+    <Compile Include="PropertyCondition\LessThanCondition.cs" />
+    <Compile Include="PropertyCondition\LessThanOrEqualCondition.cs" />
+    <Compile Include="PropertyCondition\NotEmptyCondition.cs" />
+    <Compile Include="PropertyCondition\NotEqualCondition.cs" />
+    <Compile Include="PropertyCondition\NotInCondition.cs" />
+    <Compile Include="PropertyCondition\NotInStringCondition.cs" />
+    <Compile Include="PropertyCondition\NotNullCondition.cs" />
+    <Compile Include="PropertyCondition\NullCondition.cs" />
+    <Compile Include="PropertyCondition\PredicateCondition.cs" />
+    <Compile Include="PropertyCondition\PropertyCondition.cs" />
+    <Compile Include="PropertyRule.cs" />
+    <Compile Include="RuleBuilder.cs" />
+    <Compile Include="TrackingCollection.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

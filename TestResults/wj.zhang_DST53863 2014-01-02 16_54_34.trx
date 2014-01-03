@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8d1f6545-ef29-4876-9ded-90446c511b8e" name="wj.zhang@DST53863 2014-01-02 16:54:34" runUser="CN1\wj.zhang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b90576d4-04a4-45f5-9144-5b655f7aa290">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="wj.zhang_DST53863 2014-01-02 16_54_34">
+      <DeploymentItem filename="D:\GitHub\G\GAssignation\GAssignation\bin\Debug\GAssignation.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-02T16:54:34.9034959+08:00" queuing="2014-01-02T16:54:35.1884959+08:00" start="2014-01-02T16:54:35.2064959+08:00" finish="2014-01-02T16:54:35.4764959+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCollection" storage="d:\github\g\gassignation\gassignationtest\bin\debug\gassignationtest.dll" id="3d155380-f468-bd81-ea8d-9e8e9511027e">
+      <Execution id="d3ccaf6d-ebc9-46d1-8fad-b77095856edc" />
+      <TestMethod codeBase="D:/GitHub/G/GAssignation/GAssignationTest/bin/Debug/GAssignationTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GAssignationTest.ChildAssigner, GAssignationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCollection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d155380-f468-bd81-ea8d-9e8e9511027e" executionId="d3ccaf6d-ebc9-46d1-8fad-b77095856edc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3ccaf6d-ebc9-46d1-8fad-b77095856edc" testId="3d155380-f468-bd81-ea8d-9e8e9511027e" testName="TestCollection" computerName="DST53863" duration="00:00:00.0491024" startTime="2014-01-02T16:54:35.2124959+08:00" endTime="2014-01-02T16:54:35.4634959+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3ccaf6d-ebc9-46d1-8fad-b77095856edc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   在 GAssignationTest.ChildAssigner.TestCollection() 位置 D:\GitHub\G\GAssignation\GAssignationTest\ChildAssigner.cs:行号 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

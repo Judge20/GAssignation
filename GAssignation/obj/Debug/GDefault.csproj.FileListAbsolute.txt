@@ -1,0 +1,4 @@
+D:\GitHub\G\GDefault\GDefault\bin\Debug\GDefault.dll
+D:\GitHub\G\GDefault\GDefault\bin\Debug\GDefault.pdb
+D:\GitHub\G\GDefault\GDefault\obj\Debug\GDefault.dll
+D:\GitHub\G\GDefault\GDefault\obj\Debug\GDefault.pdb
